@@ -1,0 +1,494 @@
+INFO - 2024-06-24 01:49:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 01:50:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 01:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 01:50:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 01:50:53 --> ErrorException: Array to string conversion
+[Method: GET, Route: TambahPesanan]
+in APPPATH\Views\Pesanan\TambahPesanan.php on line 20.
+ 1 APPPATH\Views\Pesanan\TambahPesanan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\Pesanan\\TambahPesanan.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\Pesanan\\TambahPesanan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/TambahPesanan', [], true)
+ 5 APPPATH\Controllers\Pesanan.php(20): view('pesanan/TambahPesanan')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->TambahPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 01:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 01:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 02:05:12 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pelanggan/index.php"
+[Method: GET, Route: Pelanggan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pelanggan/index', [], true)
+ 3 APPPATH\Controllers\Pelanggan.php(14): view('pelanggan/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pelanggan->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:07:14 --> ErrorException: Cannot declare class App\Controllers\Pelanggan, because the name is already in use
+[Method: GET, Route: Pelanggan]
+in APPPATH\Models\Pelanggan\M_Pelanggan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 02:07:32 --> ErrorException: Cannot declare class App\Controllers\M_Pelanggan because the name is already in use
+[Method: GET, Route: Pelanggan]
+in APPPATH\Models\Pelanggan\M_Pelanggan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 02:07:48 --> ErrorException: Cannot declare class App\Controllers\M_Pelanggan because the name is already in use
+[Method: GET, Route: Pelanggan]
+in APPPATH\Models\Pelanggan\M_Pelanggan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 02:07:48 --> ErrorException: Cannot declare class App\Controllers\M_Pelanggan because the name is already in use
+[Method: GET, Route: Pelanggan]
+in APPPATH\Models\Pelanggan\M_Pelanggan.php on line 7.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-24 02:37:05 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:41:50 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:42:06 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:42:55 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:43:50 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:44:38 --> Error: Class "App\Models\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:45:17 --> Error: Class "App\Models\Pelanggan\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:45:36 --> Error: Class "App\Models\Pelanggan\M_Pesanan" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Controllers\Pesanan.php on line 19.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:46:41 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Models\Pelanggan\M_Pesanan.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\pelanggan\\app\\Models\\Pelanggan\\M_Pesanan.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pelanggan\\M_Pesanan')
+ 4 APPPATH\Controllers\Pesanan.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pelanggan\\M_Pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 02:46:56 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: Pesanan]
+in APPPATH\Models\Pelanggan\M_Pesanan.php on line 7.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\pelanggan\\app\\Models\\Pelanggan\\M_Pesanan.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pelanggan\\M_Pesanan')
+ 4 APPPATH\Controllers\Pesanan.php(19): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pelanggan\\M_Pesanan')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 03:51:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pesanan/tambah.php"
+[Method: GET, Route: TambahPesanan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pesanan/tambah.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/tambah', [], true)
+ 3 APPPATH\Controllers\Pesanan.php(35): view('pesanan/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->tambahPesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 03:51:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pesanan/tambah.php"
+[Method: GET, Route: TambahPesanan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pesanan/tambah.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/tambah', [], true)
+ 3 APPPATH\Controllers\Pesanan.php(35): view('pesanan/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->tambahPesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 03:52:23 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "pesanan/tambah.php"
+[Method: GET, Route: TambahPesanan]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pesanan/tambah.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pesanan/tambah', [], true)
+ 3 APPPATH\Controllers\Pesanan.php(35): view('pesanan/tambah', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->tambahPesanan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 03:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 04:26:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-24 13:35:12 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'barbershop' in C:\xampp\htdocs\pelanggan\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\xampp\htdocs\pelanggan\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'barbershop', 3306, '', 0)
+#1 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\pelanggan\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan...', Array, false)
+#4 C:\xampp\htdocs\pelanggan\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pelanggan\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\pelanggan\app\Models\Pelanggan\M_Pesanan.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\pelanggan\app\Controllers\Pesanan.php(20): App\Models\Pelanggan\M_Pesanan->getPesanan()
+#8 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+#9 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#10 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pelanggan\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pelanggan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pelanggan\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pelanggan\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'barbershop' in C:\xampp\htdocs\pelanggan\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\pelanggan\system\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan...', Array, false)
+#3 C:\xampp\htdocs\pelanggan\system\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\pelanggan\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\pelanggan\app\Models\Pelanggan\M_Pesanan.php(22): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\pelanggan\app\Controllers\Pesanan.php(20): App\Models\Pelanggan\M_Pesanan->getPesanan()
+#7 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+#8 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+#9 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pelanggan\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\pelanggan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\pelanggan\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\xampp\htdocs\pelanggan\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2024-06-24 13:35:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'barbershop'
+[Method: GET, Route: Pesanan]
+in SYSTEMPATH\Database\BaseConnection.php on line 457.
+ 1 SYSTEMPATH\Database\BaseConnection.php(604): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1629): CodeIgniter\Database\BaseConnection->query('SELECT `pesanan`.*, `layanan`.`jenis_layanan`, `pelanggan`.`nama` as `pelanggan_nama`, `barber`.`nama` as `barber_nama`
+FROM `pesanan`
+JOIN `layanan` ON `layanan`.`id_layanan` = `pesanan`.`id_layanan`
+JOIN `pelanggan` ON `pelanggan`.`id_pelanggan` = `pesanan`.`id_pelanggan`
+JOIN `barber` ON `barber`.`id_barber` = `pesanan`.`id_barber`', [], false)
+ 3 SYSTEMPATH\Model.php(275): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Models\Pelanggan\M_Pesanan.php(22): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH\Controllers\Pesanan.php(20): App\Models\Pelanggan\M_Pesanan->getPesanan()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pesanan->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pesanan))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+13 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 14:37:23 --> ErrorException: Undefined variable $pesanan
+[Method: GET, Route: tukangcukur/booking/tampil]
+in APPPATH\Views\booking\index.php on line 31.
+ 1 APPPATH\Views\booking\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pesanan', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\BookingView.php(12): view('booking/index')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:10:21 --> ErrorException: Undefined variable $M_Pelanggan
+[Method: GET, Route: tukangcukur/booking/tampil/tambah]
+in APPPATH\Views\booking\tambah.php on line 28.
+ 1 APPPATH\Views\booking\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $M_Pelanggan', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\tambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/tambah', [], true)
+ 5 APPPATH\Controllers\BookingView.php(31): view('booking/tambah', [])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:13:35 --> ErrorException: Undefined variable $M_Pelanggan
+[Method: GET, Route: tukangcukur/booking/tampil/tambah]
+in APPPATH\Views\booking\tambah.php on line 28.
+ 1 APPPATH\Views\booking\tambah.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $M_Pelanggan', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\tambah.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\tambah.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/tambah', [], true)
+ 5 APPPATH\Controllers\BookingView.php(36): view('booking/tambah', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:16:05 --> ErrorException: Undefined array key "model_potongan"
+[Method: GET, Route: tukangcukur/booking/tampil]
+in APPPATH\Views\booking\index.php on line 34.
+ 1 APPPATH\Views\booking\index.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "model_potongan"', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php', 34)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\BookingView.php(27): view('booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 15:25:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:27:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:27:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-06-24 15:28:21 --> mysqli_sql_exception: Duplicate entry '1' for key 'id_pelanggan' in C:\xampp\htdocs\pelanggan\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\pelanggan\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `pe...', 0)
+#1 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pe...')
+#2 C:\xampp\htdocs\pelanggan\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pe...')
+#3 C:\xampp\htdocs\pelanggan\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pe...', Array, false)
+#4 C:\xampp\htdocs\pelanggan\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\pelanggan\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\pelanggan\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\pelanggan\app\Controllers\Booking.php(39): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(933): App\Controllers\Booking->tambah()
+#9 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+#10 C:\xampp\htdocs\pelanggan\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\pelanggan\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\pelanggan\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\pelanggan\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\pelanggan\system\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2024-06-24 15:28:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_pelanggan'
+[Method: POST, Route: tukangcukur/booking/tambah]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (:id_pelanggan:, :id_layanan:, :id_barber:, :tanggal:, :jam_mulai:, :estimasi_berakhir:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Booking.php(39): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->tambah()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:28:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '1' for key 'id_pelanggan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (\'1\', \'2\', \'2\', \'2024-06-14\', \'21:03\', \'23:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (\'1\', \'2\', \'2\', \'2024-06-14\', \'21:03\', \'23:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (:id_pelanggan:, :id_layanan:, :id_barber:, :tanggal:, :jam_mulai:, :estimasi_berakhir:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\Booking.php(39): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->tambah()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:28:21 --> [Caused by] mysqli_sql_exception: Duplicate entry '1' for key 'id_pelanggan'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (\'1\', \'2\', \'2\', \'2024-06-14\', \'21:03\', \'23:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (\'1\', \'2\', \'2\', \'2024-06-14\', \'21:03\', \'23:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (\'1\', \'2\', \'2\', \'2024-06-14\', \'21:03\', \'23:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pesanan` (`id_pelanggan`, `id_layanan`, `id_barber`, `tanggal`, `jam_mulai`, `estimasi_berakhir`) VALUES (:id_pelanggan:, :id_layanan:, :id_barber:, :tanggal:, :jam_mulai:, :estimasi_berakhir:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Booking.php(39): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->tambah()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 15:32:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 15:35:24 --> ErrorException: Undefined array key "id_booking"
+[Method: GET, Route: tukangcukur/booking/tampil/]
+in APPPATH\Views\booking\index.php on line 36.
+ 1 APPPATH\Views\booking\index.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_booking"', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php', 36)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/index', [], true)
+ 5 APPPATH\Controllers\BookingView.php(27): view('booking/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:37:46 --> Error: Call to a member function delete() on array
+[Method: GET, Route: tukangcukur/booking/hapus/2]
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->hapus('2')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:39:14 --> Error: Call to a member function delete() on array
+[Method: GET, Route: tukangcukur/booking/hapus/3]
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->hapus('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+CRITICAL - 2024-06-24 15:39:21 --> Error: Call to a member function delete() on array
+[Method: GET, Route: tukangcukur/booking/hapus/3]
+in APPPATH\Controllers\Booking.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Booking->hapus('3')
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Booking))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 15:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:51:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 15:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-24 15:57:49 --> ErrorException: Undefined array key "pelanggan_name"
+[Method: GET, Route: tukangcukur/booking/tampil/edit/1]
+in APPPATH\Views\booking\edit.php on line 28.
+ 1 APPPATH\Views\booking\edit.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "pelanggan_name"', 'C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\edit.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\pelanggan\\app\\Views\\booking\\edit.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('booking/edit', [], true)
+ 5 APPPATH\Controllers\BookingView.php(52): view('booking/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BookingView->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BookingView))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\pelanggan\\public\\index.php')
+INFO - 2024-06-24 16:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-24 16:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
